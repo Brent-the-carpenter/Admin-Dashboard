@@ -239,10 +239,18 @@ color:  rgba(3, 3, 3, 0.6);
     background-color: white;
     box-shadow: inset 10px 0px 0px goldenrod;
 }
-.mainContent h1{
-    
+.icon-Container{
+    display:grid ;
+    grid-template-columns: 1fr .1fr .1fr;
+    justify-items: end;
+    align-content: end;
+    gap: 16px;
+    padding-right: 8px;   
+}
+
+.mainContent h1{ 
     display: grid;
-    align-self: self-end;
+     align-self: self-end; 
 }
 
 input{
